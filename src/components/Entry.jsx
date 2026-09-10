@@ -1,10 +1,14 @@
 import { FaLocationDot } from "react-icons/fa6"
 
 export default function Entry(props){
+    console.log(props)
     return(
         <article className="journal__entry">
             <div className="main-image-container">
-                <img className="main-image" src={props.img.src} alt={props.img.alt} />
+                <img className="main-image" 
+                src={props.img.src} 
+                alt={props.img.alt} 
+                />
             </div>
 
             <div className="info-container">
