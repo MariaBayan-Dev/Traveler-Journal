@@ -20,6 +20,7 @@ header{
 .journal__entry{
   display: flex;
   padding: 2rem;
+  margin-bottom: 2rem;
 }
 
 .main-image-container{
